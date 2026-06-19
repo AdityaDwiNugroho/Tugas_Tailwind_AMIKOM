@@ -1,6 +1,10 @@
 === CTF CHALLENGE - STAGE 3 ===
-Ciphertext: HZNJ{OZOMOF_NRKZJLBQ_TCVUUI_OOFWSE_25015252}
+Ciphertext: RTNA{SPMVOB_TNAPNIGX_FPPMUY_YIFNWU_25015252}
 Metode: Vigenère Cipher (hanya huruf alfabet yang digeser, case-sensitive).
-Kunci Dekripsi: Nama desa/kelurahan tempat kampus Universitas Amikom Yogyakarta berada (seluruhnya HURUF BESAR).
+Kunci Dekripsi: Gabungan kata bahasa Indonesia untuk nilai Latitude dan Longitude Universitas Amikom Yogyakarta (dibulatkan ke integer terdekat, ditulis dalam HURUF BESAR tanpa spasi/simbol).
 
-Pecahkan koordinat dari petunjuk sebelumnya di Google Maps untuk mengetahui lokasi kampus dan dapatkan kuncinya!
+Format Kunci: [KATA_LATITUDE][KATA_LONGITUDE]
+Contoh (jika Latitude = -7.7596 dan Longitude = 110.4087):
+- Latitude dibulatkan ke integer terdekat -> -8 (Bahasa Indonesia: MINUSDELAPAN)
+- Longitude dibulatkan ke integer terdekat -> 110 (Bahasa Indonesia: SERATUSPULUH)
+Maka Kunci Dekripsi adalah: MINUSDELAPANSERATUSPULUH
