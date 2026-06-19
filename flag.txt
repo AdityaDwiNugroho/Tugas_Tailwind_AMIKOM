@@ -1,11 +1,3 @@
 === CTF CHALLENGE - STAGE 3 ===
-Ciphertext: RTNA{SPMVOB_TNAPNIGX_FPPMUY_YIFNWU_25015252}
-Metode: Vigenère Cipher (hanya huruf alfabet yang digeser, case-sensitive).
 
-Kunci Dekripsi: Gabungan kata Bahasa Indonesia untuk nilai Latitude dan Longitude Universitas Amikom Yogyakarta (dibulatkan ke integer terdekat, ditulis dalam HURUF BESAR tanpa spasi/simbol).
-
-Format Kunci: [KATA_LATITUDE][KATA_LONGITUDE]
-Contoh (jika Latitude lokasi contoh = -6.1751 dan Longitude lokasi contoh = 106.8272):
-- Latitude dibulatkan ke integer terdekat -> -6 (Bahasa Indonesia: MINUSENAM)
-- Longitude dibulatkan ke integer terdekat -> 107 (Bahasa Indonesia: SERATUSTUJUH)
-Maka Kunci Dekripsi untuk contoh tersebut adalah: MINUSENAMSERATUSTUJUH
+Buka berkas secret.html menggunakan peramban (web browser) Anda untuk mendapatkan petunjuk selanjutnya!
