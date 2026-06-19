@@ -20,8 +20,8 @@ Berikut adalah penjelasan mengenai class-class Tailwind CSS yang digunakan pada 
 6. **`duration-300`**
    * **Fungsi:** Menentukan durasi transisi selama 300 milidetik (0,3 detik) agar efek berjalan mulus.
 
-7. **`hover:scale-110`**
-   * **Fungsi:** Memperbesar skala logo menjadi 110% saat kursor diarahkan ke elemen.
+7. **`hover:scale-190`**
+   * **Fungsi:** Memperbesar skala logo menjadi 190% saat kursor diarahkan ke elemen.
 
 8. **`hidden`**
    * **Fungsi:** Menyembunyikan elemen dari tampilan layar secara default.
