@@ -8,7 +8,6 @@
 
 \begin{document}
 
-% Chinese Assignment Paper Style Title Block
 \noindent
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
     \textbf{Universitas Amikom Yogyakarta} & \textbf{D3 Teknologi Informasi} \\
@@ -82,7 +81,7 @@
 
 \newpage
 
-\section{Penjelasan 10 Class Tailwind CSS}
+\section{Penjelasan Class Tailwind CSS}
 Berikut adalah penjelasan class Tailwind CSS yang digunakan pada navbar:
 
 \begin{enumerate}
@@ -90,7 +89,7 @@ Berikut adalah penjelasan class Tailwind CSS yang digunakan pada navbar:
     \item \textbf{\texttt{flex}}: Mengaktifkan tata letak flexbox agar elemen di dalamnya sejajar secara horizontal.
     \item \textbf{\texttt{justify-between}}: Mengatur jarak antar-elemen agar logo berada di ujung kiri dan tombol menu/login di ujung kanan.
     \item \textbf{\texttt{items-center}}: Menyejajarkan posisi elemen secara vertikal di tengah navbar.
-    \item \textbf{\texttt{transition-transform}}: Mengaktifkan efek transisi pada perubahan skala (scale) elemen.
+    \item \textbf{\texttt{transition-transform}}: Mengaktifkan efek transisi pada perubahan skala (scale) elemen (pada logo).
     \item \textbf{\texttt{duration-300}}: Menentukan durasi transisi selama 300 milidetik (0,3 detik) agar efek berjalan mulus.
     \item \textbf{\texttt{hover:scale-110}}: Memperbesar skala logo menjadi 110\% saat kursor diarahkan ke elemen.
     \item \textbf{\texttt{hidden}}: Menyembunyikan elemen dari tampilan layar secara default.
@@ -98,6 +97,12 @@ Berikut adalah penjelasan class Tailwind CSS yang digunakan pada navbar:
     \item \textbf{\texttt{rounded}}: Memberikan sudut melengkung (border-radius) pada tombol Login.
     \item \textbf{\texttt{bg-orange-500}}: Memberikan warna latar belakang oranye pada tombol Login.
     \item \textbf{\texttt{hover:bg-orange-600}}: Mengubah warna latar belakang tombol Login menjadi oranye lebih gelap saat di-hover.
+    \item \textbf{\texttt{hover:underline}}: Menampilkan garis bawah pada teks link menu saat disentuh kursor (hover).
+    \item \textbf{\texttt{hover:text-amber-300}}: Mengubah warna teks link menu menjadi kuning amber saat di-hover.
+    \item \textbf{\texttt{transition-all}}: Mengaktifkan transisi animasi yang halus untuk semua perubahan properti pada elemen link menu.
 \end{enumerate}
+
+\noindent
+\textbf{Catatan:} Seluruh komponen antarmuka dalam proyek ini diimplementasikan sepenuhnya menggunakan class bawaan Tailwind CSS tanpa menggunakan kode CSS murni (custom CSS) tambahan.
 
 \end{document}
