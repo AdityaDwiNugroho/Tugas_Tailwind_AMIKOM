@@ -1,9 +1,7 @@
 === CTF CHALLENGE - STAGE 3 ===
+Ciphertext: RTNA{SPMVOB_TNAPNIGX_FPPMUY_YIFNWU_25015252}
+Metode: Vigenère Cipher (hanya huruf alfabet yang digeser, case-sensitive).
 
-Ciphertext (Hex): 737d069d5cab4d47a52a4fc5279db39f5bd741a80daaab4badae5028fbfae51b706318e812da313bdc5030e7
-
-Metode Kriptografi:
-Flag asli telah di-XOR bit demi bit menggunakan bytes dari SHA-256 hash dari Kunci Dekripsi.
 Kunci Dekripsi: Gabungan kata Bahasa Indonesia untuk nilai Latitude dan Longitude Universitas Amikom Yogyakarta (dibulatkan ke integer terdekat, ditulis dalam HURUF BESAR tanpa spasi/simbol).
 
 Format Kunci: [KATA_LATITUDE][KATA_LONGITUDE]
@@ -11,28 +9,3 @@ Contoh (jika Latitude lokasi contoh = -6.1751 dan Longitude lokasi contoh = 106.
 - Latitude dibulatkan ke integer terdekat -> -6 (Bahasa Indonesia: MINUSENAM)
 - Longitude dibulatkan ke integer terdekat -> 107 (Bahasa Indonesia: SERATUSTUJUH)
 Maka Kunci Dekripsi untuk contoh tersebut adalah: MINUSENAMSERATUSTUJUH
-
-Target SHA-256 Hash dari Kunci Dekripsi:
-353147da27ea000eee65029a73dcfad30c9e0fec52e4ea1defef0277b6bbb64f
-
----
-Untuk mendekripsi dan membuktikan flag Anda, Anda dapat menjalankan skrip Python berikut secara lokal:
-
-```python
-import hashlib
-import binascii
-
-cipher_hex = "737d069d5cab4d47a52a4fc5279db39f5bd741a80daaab4badae5028fbfae51b706318e812da313bdc5030e7"
-target_hash = "353147da27ea000eee65029a73dcfad30c9e0fec52e4ea1defef0277b6bbb64f"
-
-key_input = input("Masukkan Kunci Dekripsi: ").strip()
-key_hash = hashlib.sha256(key_input.encode('utf-8')).hexdigest()
-
-if key_hash == target_hash:
-    key_bytes = hashlib.sha256(key_input.encode('utf-8')).digest()
-    cipher_bytes = binascii.unhexlify(cipher_hex)
-    decrypted = bytearray(b ^ key_bytes[i % len(key_bytes)] for i, b in enumerate(cipher_bytes))
-    print("\n[+] Sukses! Flag Anda:", decrypted.decode('utf-8'))
-else:
-    print("\n[-] Kunci salah! Gagal mencocokkan SHA-256 hash.")
-```
