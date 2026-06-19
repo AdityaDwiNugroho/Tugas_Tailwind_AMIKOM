@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.19)  19 JUN 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.19)  19 JUN 2026 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,25 +233,25 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.aux)
 \openout1 = `"25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-Package hyperref Info: Link coloring OFF on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.out)
 (25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.out)
@@ -320,20 +320,20 @@ ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 20.
 <desktop_default.png, id=36, 1444.64719pt x 812.28468pt>
 File: desktop_default.png Graphic file (type png)
 <use desktop_default.png>
-Package pdftex.def Info: desktop_default.png  used on input line 42.
+Package pdftex.def Info: desktop_default.png  used on input line 49.
 (pdftex.def)             Requested size: 385.02547pt x 216.48146pt.
 <logo_hover.png, id=38, 1442.38875pt x 812.28468pt>
 File: logo_hover.png Graphic file (type png)
 <use logo_hover.png>
-Package pdftex.def Info: logo_hover.png  used on input line 50.
+Package pdftex.def Info: logo_hover.png  used on input line 57.
 (pdftex.def)             Requested size: 385.02547pt x 216.8285pt.
 
 
@@ -346,12 +346,12 @@ p_default.png>]
 <link_hover.png, id=50, 1444.64719pt x 350.05782pt>
 File: link_hover.png Graphic file (type png)
 <use link_hover.png>
-Package pdftex.def Info: link_hover.png  used on input line 60.
+Package pdftex.def Info: link_hover.png  used on input line 67.
 (pdftex.def)             Requested size: 385.02547pt x 93.29367pt.
 <tablet_surface.png, id=51, 496.10344pt x 584.1825pt>
 File: tablet_surface.png Graphic file (type png)
 <use tablet_surface.png>
-Package pdftex.def Info: tablet_surface.png  used on input line 68.
+Package pdftex.def Info: tablet_surface.png  used on input line 75.
 (pdftex.def)             Requested size: 317.07614pt x 373.37634pt.
 
 
@@ -361,11 +361,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <mobile_galaxy.png, id=60, 542.77782pt x 628.59843pt>
 File: mobile_galaxy.png Graphic file (type png)
 <use mobile_galaxy.png>
-Package pdftex.def Info: mobile_galaxy.png  used on input line 78.
+Package pdftex.def Info: mobile_galaxy.png  used on input line 85.
 (pdftex.def)             Requested size: 181.18439pt x 209.83603pt.
  [3 <./tablet_surface.png> <./mobile_galaxy.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 89.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 96.
  [4] (25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -378,7 +378,7 @@ d".out' has not changed.
 Here is how much of TeX's memory you used:
  9016 strings out of 467871
  142750 string characters out of 5416440
- 556602 words of memory out of 5000000
+ 557728 words of memory out of 5000000
  37790 multiletter control sequences out of 15000+600000
  632144 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -388,7 +388,7 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmr12.pfb><C:/Users/itsYurtzy/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on "25.01.5252_Aditya Dwi Nugroho_Tugas Tailwind.pdf" (4 pages, 
-209676 bytes).
+210839 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
