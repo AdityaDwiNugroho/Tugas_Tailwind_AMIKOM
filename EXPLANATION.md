@@ -44,7 +44,10 @@ Berikut adalah penjelasan mengenai class-class Tailwind CSS yang digunakan pada 
 14. **`hover:text-amber-300`**
     * **Fungsi:** Mengubah warna teks link menu menjadi kuning amber saat di-hover.
 
-15. **`transition-all`**
+15. **`hover:font-bold`**
+    * **Fungsi:** Mengubah font teks link menu menjadi tebal (bold) saat di-hover.
+
+16. **`transition-all`**
     * **Fungsi:** Mengaktifkan transisi animasi yang halus untuk semua perubahan properti pada elemen link menu.
 
 ---
