@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tugas Modifikasi Navbar Tailwind CSS</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-50">
+        <nav class="bg-purple-800 w-full px-4 sm:px-24 py-4">
+            <div class="flex justify-between w-full items-center">
+                <img src="logo.png" class="h-8 transition-transform duration-300 hover:scale-110 cursor-pointer">
+
+                <div id="hamburger" class="flex gap-1 w-4 flex-col sm:hidden cursor-pointer">
+                    <div class="h-0.5 w-full bg-white"></div>
+                    <div class="h-0.5 w-full bg-white"></div>
+                    <div class="h-0.5 w-full bg-white"></div>
+                </div>
+
+                <div class="hidden sm:flex gap-4 text-white text-xs items-center">
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>Home</p>
+                    </div>
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>About</p>
+                    </div>
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>Services</p>
+                    </div>
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>Gallery</p>
+                    </div>
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>FAQ</p>
+                    </div>
+                    <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                        <p>Contacts</p>
+                    </div>
+                    <a href="#" class="bg-orange-500 hover:bg-orange-600 px-3 py-1.5 rounded transition-all hover:scale-105 text-white font-semibold">Login</a>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="hidden flex-col gap-3 text-white text-xs mt-4 sm:hidden">
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>Home</p>
+                </div>
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>About</p>
+                </div>
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>Services</p>
+                </div>
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>Gallery</p>
+                </div>
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>FAQ</p>
+                </div>
+                <div class="flex hover:underline cursor-pointer transition-all hover:text-amber-300">
+                    <p>Contacts</p>
+                </div>
+                <div>
+                    <a href="#" class="bg-orange-500 hover:bg-orange-600 px-3 py-1.5 rounded transition-all hover:scale-105 text-white font-semibold inline-block">Login</a>
+                </div>
+            </div>
+        </nav>
+
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            hamburger.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
+        </script>
+    </body>
+</html>
