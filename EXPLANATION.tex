@@ -6,13 +6,30 @@
 \usepackage{xurl}
 \geometry{a4paper, margin=1in}
 
-\title{Jawaban Tugas: Modifikasi Navbar Tailwind CSS}
-\author{Aditya Dwi Nugroho (25.01.5252)}
-\date{\today}
-
 \begin{document}
 
-\maketitle
+% Chinese Assignment Paper Style Title Block
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{Universitas Amikom Yogyakarta} & \textbf{D3 Teknologi Informasi} \\
+\end{tabular*}
+\vspace{-0.2cm}
+\rule{\textwidth}{1.5pt}
+\vspace{0.2cm}
+\begin{center}
+    {\Large \textbf{Tugas Modifikasi Navbar Tailwind CSS}} \\
+    \vspace{0.1cm}
+    {\large \textbf{Laporan Praktikum Pemrograman Web}}
+\end{center}
+\vspace{0.2cm}
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll ll}
+    \textbf{Nama:} & \textbf{Aditya Dwi Nugroho} & \textbf{NIM:} & \textbf{25.01.5252} \\
+    \textbf{Mata Kuliah:} & Pemrograman Web & & 
+\end{tabular*}
+\vspace{0.1cm}
+\rule{\textwidth}{1.5pt}
+\vspace{0.5cm}
 
 \section{Tautan GitHub}
 \url{https://github.com/AdityaDwiNugroho/Tugas_Tailwind_AMIKOM/blob/main/index.html}
@@ -22,7 +39,7 @@
 \subsection{Tampilan Desktop (Kondisi Default)}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{desktop_default.png}
+    \includegraphics[width=0.85\textwidth]{desktop_default.png}
     \caption{Tampilan Desktop Default}
     \label{fig:desktop_default}
 \end{figure}
@@ -30,7 +47,7 @@
 \subsection{Tampilan Desktop (Hover Scaling Logo)}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{logo_hover.png}
+    \includegraphics[width=0.85\textwidth]{logo_hover.png}
     \caption{Efek Hover Scaling Logo}
     \label{fig:logo_hover}
 \end{figure}
@@ -40,7 +57,7 @@
 \subsection{Tampilan Desktop (Hover Link Menu)}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{link_hover.png}
+    \includegraphics[width=0.85\textwidth]{link_hover.png}
     \caption{Efek Hover pada Link Menu}
     \label{fig:link_hover}
 \end{figure}
@@ -48,7 +65,7 @@
 \subsection{Tampilan Tablet (Surface Pro 7)}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{tablet_surface.png}
+    \includegraphics[width=0.7\textwidth]{tablet_surface.png}
     \caption{Tampilan Responsif pada Layar Tablet}
     \label{fig:tablet_surface}
 \end{figure}
@@ -58,7 +75,7 @@
 \subsection{Tampilan Mobile (Samsung Galaxy S8+)}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.45\textwidth]{mobile_galaxy.png}
+    \includegraphics[width=0.4\textwidth]{mobile_galaxy.png}
     \caption{Tampilan Responsif pada Layar Mobile}
     \label{fig:mobile_galaxy}
 \end{figure}
@@ -66,21 +83,21 @@
 \newpage
 
 \section{Penjelasan 10 Class Tailwind CSS}
-Berikut adalah penjelasan 10 class Tailwind CSS yang digunakan pada navbar:
+Berikut adalah penjelasan class Tailwind CSS yang digunakan pada navbar:
 
 \begin{enumerate}
-    \item \texttt{bg-purple-800}: Mengatur warna latar belakang (background) navbar menjadi ungu (shade 800).
-    \item \texttt{flex}: Mengaktifkan model tata letak Flexbox untuk menyusun elemen secara horizontal atau vertikal.
-    \item \texttt{justify-between}: Mendistribusikan elemen secara merata sehingga elemen pertama berada di kiri dan elemen terakhir di kanan.
-    \item \texttt{items-center}: Meratakan elemen anak secara vertikal tepat di tengah-tengah flex container.
-    \item \texttt{transition-transform}: Mengaktifkan efek transisi animasi khusus pada properti \texttt{transform} (seperti skala).
-    \item \texttt{duration-300}: Menentukan durasi efek transisi selama 300 milidetik (0.3 detik).
-    \item \texttt{hover:scale-110}: Membesarkan ukuran skala logo sebesar 110\% saat disentuh kursor (efek hover).
-    \item \texttt{hidden}: Menyembunyikan elemen dari tampilan layar (\texttt{display: none}).
-    \item \texttt{sm:flex}: Menampilkan elemen sebagai flexbox hanya pada layar ukuran sedang ke atas (breakpoint \texttt{sm}).
-    \item \texttt{rounded}: Memberikan sudut membulat (\texttt{border-radius}) standar pada tombol Login.
-    \item \texttt{bg-orange-500}: Memberikan warna latar belakang oranye pada tombol Login.
-    \item \texttt{hover:bg-orange-600}: Mengubah warna latar belakang tombol menjadi oranye yang lebih gelap saat di-hover.
+    \item \textbf{\texttt{bg-purple-800}}: Mengubah warna latar belakang navbar menjadi ungu.
+    \item \textbf{\texttt{flex}}: Mengaktifkan tata letak flexbox agar elemen di dalamnya sejajar secara horizontal.
+    \item \textbf{\texttt{justify-between}}: Mengatur jarak antar-elemen agar logo berada di ujung kiri dan tombol menu/login di ujung kanan.
+    \item \textbf{\texttt{items-center}}: Menyejajarkan posisi elemen secara vertikal di tengah navbar.
+    \item \textbf{\texttt{transition-transform}}: Mengaktifkan efek transisi pada perubahan skala (scale) elemen.
+    \item \textbf{\texttt{duration-300}}: Menentukan durasi transisi selama 300 milidetik (0,3 detik) agar efek berjalan mulus.
+    \item \textbf{\texttt{hover:scale-110}}: Memperbesar skala logo menjadi 110\% saat kursor diarahkan ke elemen.
+    \item \textbf{\texttt{hidden}}: Menyembunyikan elemen dari tampilan layar secara default.
+    \item \textbf{\texttt{sm:flex}}: Menampilkan elemen sebagai flexbox pada ukuran layar sedang (breakpoint sm) ke atas.
+    \item \textbf{\texttt{rounded}}: Memberikan sudut melengkung (border-radius) pada tombol Login.
+    \item \textbf{\texttt{bg-orange-500}}: Memberikan warna latar belakang oranye pada tombol Login.
+    \item \textbf{\texttt{hover:bg-orange-600}}: Mengubah warna latar belakang tombol Login menjadi oranye lebih gelap saat di-hover.
 \end{enumerate}
 
 \end{document}
