@@ -1,6 +1,6 @@
 === CTF CHALLENGE - STAGE 3 ===
-Ciphertext: FXIQ{OYIWWW_HMIXESBP_NMDLOD_MMADSD_25015252}
+Ciphertext: HZNJ{OZOMOF_NRKZJLBQ_TCVUUI_OOFWSE_25015252}
 Metode: Vigenère Cipher (hanya huruf alfabet yang digeser, case-sensitive).
-Kunci Dekripsi: Nama Universitas tempat Aditya kuliah (seluruhnya HURUF BESAR).
+Kunci Dekripsi: Nama desa/kelurahan tempat kampus Universitas Amikom Yogyakarta berada (seluruhnya HURUF BESAR).
 
-Gunakan kunci tersebut untuk mendekripsi Ciphertext di atas dan temukan Flag akhirnya!
+Pecahkan koordinat dari petunjuk sebelumnya di Google Maps untuk mengetahui lokasi kampus dan dapatkan kuncinya!
